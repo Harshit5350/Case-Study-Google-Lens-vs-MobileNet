@@ -1,0 +1,180 @@
+#dj{
+    color: rgb(245, 38, 38);
+    letter-spacing: 2px;
+}
+
+#ghj{
+    padding-bottom: 5px;
+    padding-top: 0px;
+   
+    clear: both;
+    width: fit-content;
+    height: fit-content;
+}
+
+.hh{
+    font-size: 25px;
+    width: fit-content;
+    height: fit-content;
+}
+
+.hj{
+    border-color: black;
+    border: 1px solid black;
+    width: 1000px;
+}
+
+
+
+/*0*/
+
+.aa {
+    margin: 50px;
+    display: flex;
+    background-color: grey;
+    box-shadow: 5px 5px 15px 1px black;
+    padding: 15px;
+    height: 500px;
+    border-radius: 20px;
+    width: fit-content;
+}
+
+.responsive {
+    width: 370px;
+    height: 420px;
+    margin-top: 30px;
+    margin-left: -70px;
+    border: 6.5px solid white;
+    border-radius: 20px;
+}
+
+.hellow{
+    margin-left: 20px;
+    color: white;
+    display: inline-block;
+}
+
+.heeelooo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    float: right;
+    max-height: 25px;
+    padding:10px 10px 30px 10px;
+    border-radius: 20px;
+}
+
+.ab{
+    justify-content: space-around;
+    margin: 0px 7px 0px 7px;
+}
+
+.oup1{
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+#result{
+    color: white;
+    margin-top: 70px;
+}
+
+
+/*1*/
+
+.responsive1{
+    height: 300px;
+    width: 350px;
+    margin-top: 30px;
+    margin-left: -70px;
+    border-radius: 20px;
+}
+
+.aa1{
+    margin: 50px;
+    display: flex;
+    background-color: grey;
+    box-shadow: 5px 5px 15px 1px black;
+    padding: 15px;
+    height: fit-content;
+    border-radius: 20px;
+    width: fit-content;
+}
+
+/*3*/
+
+.responsive3{
+    height: 300px;
+    width: 350px;
+    margin-top: 30px;
+    margin-left: -70px;
+    border-radius: 20px;
+    border: 15px solid white;
+}
+
+.aa3{
+    margin: 50px;
+    display: flex;
+    background-color: grey;
+    box-shadow: 5px 5px 15px 1px black;
+    padding: 15px;
+    height: fit-content;
+    border-radius: 20px;
+    width: 1080px;   
+}
+
+/*4*/
+
+.responsive4{
+    height: 340px;
+    width: 400px;
+    margin-top: 30px;
+    margin-left: -70px;
+    border-radius: 20px;
+}
+
+
+
+
+/*score*/
+.hello{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+}
+
+.kjk{
+    background-color: yellowgreen;
+    clear: both;
+    content: "";
+    width: fit-content;
+    padding: 0px 70px 0px 70px;
+    border-radius:15px;
+}
+
+.p23{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 6px;
+}
+
+#p2{
+    font-family: "Playwrite NL", cursive;
+    font-size: 30px;
+    padding-bottom: 50px;
+}
+
+.copy_right_footer {
+    position: fixed;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    background-color: #e0dcdc;
+    color: #000000;
+    line-height: 3;
+    text-align: center;
+  }

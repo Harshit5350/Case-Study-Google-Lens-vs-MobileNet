@@ -1,0 +1,122 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+        <!--Setting Bootstrap links-->
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+        <!--Linking to other files-->
+        <link rel="stylesheet" href="style.css">
+        <script src="main.js"></script>
+
+        <!--Font Family-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playwrite+NL:wght@100..400&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <center>
+            <h3 id="dj">Case Study between Google Lens and MobileNet</h3>
+            <h1 id="ghj"> Google Lens <img src="gl.png"></h1>
+            
+            <h3>Vs</h3>
+            <h1 class="btn-lg btn hh btn-info">MobileNet</h1>
+            <br><br><br><hr class="hj"><br>
+
+            <!--0-->
+            <div class="aa">
+                <label class="hellow">Test Image</label>
+                <img class="responsive" src="images.jpg">
+
+                <div class="oup1">
+                    <label class="btn btn-default heeelooo ab">Output on <p class="ab" style="color:purple;"> Google Lens </p> - <p class="ab" style="color: red;"> Water Bottle </p></label>
+                    <label class="btn btn-default heeelooo ab">Output on <p class="ab" style="color:purple;"> MobileNet Model </p> - <p class="ab" style="color: red;"> Water Bottle </p></label>
+                    <p id="Result">Result - </p>  
+                    <hr>
+                    <p style="color: white; font-size: 25px;"> <b><i>Draw</i></b></p>
+                </div>     
+            </div>
+
+
+            <!--1-->
+            <div class="aa1">
+                <label class="hellow">Test Image</label>
+                <img class="responsive1" src="MQTQ3.jpg">
+
+                <div class="oup1">
+                    <label class="btn btn-default heeelooo ab">Output on <p class="ab" style="color:purple;"> Google Lens </p> - <p class="ab" style="color: red;">Headphones </p></label>
+                    <label class="btn btn-default heeelooo ab">Output on <p class="ab" style="color:purple;"> MobileNet Model </p> - <p class="ab" style="color: red;"> Microphone / Mike </p></label>
+                    <p id="Result">Result - </p>  
+                    <hr>
+                    <p style="color: white; font-size: 22.5px;"> <b><i>Google Lens is More Accurate</i></b></p>
+                </div>     
+            </div>
+
+
+            <!--2-->
+            <div class="aa1">
+                <label class="hellow">Test Image</label>
+                <img class="responsive1" src="hsoe.webp">
+
+                <div class="oup1">
+                    <label class="btn btn-default heeelooo ab">Output on <p class="ab" style="color:purple;"> Google Lens </p> - <p class="ab" style="color: red;">Canvas Shoe </p></label>
+                    <label class="btn btn-default heeelooo ab">Output on <p class="ab" style="color:purple;"> MobileNet Model </p> - <p class="ab" style="color: red;"> Running Shoe </p></label>
+                    <p id="Result">Result - </p>  
+                    <hr>
+                    <p style="color: white; font-size: 22.5px;"> <b><i>Google Lens is More Accurate</i></b></p>
+                </div>     
+            </div>
+
+            
+            <!--3-->
+            <div class="aa3">
+                <label class="hellow">Test Image</label>
+                <img class="responsive3" src="pencil.jpg">
+
+                <div class="oup1">
+                    <label class="btn btn-default heeelooo ab">Output on <p class="ab" style="color:purple;"> Google Lens </p> - <p class="ab" style="color: red;">Pencil </p></label>
+                    <label class="btn btn-default heeelooo ab">Output on <p class="ab" style="color:purple;"> MobileNet Model </p> - <p class="ab" style="color: red;"> Pen / Marker </p></label>
+                    <p id="Result">Result - </p>  
+                    <hr>
+                    <p style="color: white; font-size: 22.5px;"> <b><i>Google Lens is More Accurate</i></b></p>
+                </div>     
+            </div>
+
+          
+            <!--4-->
+            <div class="aa1">
+                <label class="hellow">Test Image</label>
+                <img class="responsive4" src="messy-bed-with-pillows-closeup-white-bed-linen_513176-930.avif">
+
+                <div class="oup1">
+                    <label class="btn btn-default heeelooo ab">Output on <p class="ab" style="color:purple;"> Google Lens </p> - <p class="ab" style="color: red;">Bed,Pillow,Blanket </p></label>
+                    <label class="btn btn-default heeelooo ab">Output on <p class="ab" style="color:purple;"> MobileNet Model </p> - <p class="ab" style="color: red;"> Bathtub / bath tub </p></label>
+                    <p id="Result">Result - </p>  
+                    <hr>
+                    <p style="color: white; font-size: 22.5px;"> <b><i>Google Lens is More Accurate</i></b></p>
+                </div>     
+            </div>
+
+
+
+            
+            <!--Scorecard & footer-->
+          <div class="kjk"><span class="hello"> <label class="hello">Correct Guesses By Google Lens - <p class="p23">0 ┃ 5</p></label></span>
+           <span class="hello"><label class="hello">Correct Guesses By Google Lens - <p class="p23">0 ┃ 1</p></label></span></div><br><br>
+
+           <p id="p2">Google  Lens is More Accurate</p><br>
+           <div class="copy_right_footer">
+            Developed by - Harshit
+          </div>
+          
+        </center>
+    </body>
+</html>
+
+
+
